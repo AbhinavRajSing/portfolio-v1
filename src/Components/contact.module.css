@@ -1,0 +1,44 @@
+.wrappermain{
+    width:100%;
+    height:400px;
+    background-color: transparent;
+}
+.wrapperhead{
+    width:15%;
+    margin:0px auto;
+    text-align: center;
+    color:rgb(255, 136, 0)
+}
+.wrappercontact{
+    width:100%;
+    height:300px;
+    /* border:1px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.singlecontact{
+    width:30%;
+    height:200px;
+    /* border:1px solid black; */
+    border-radius: 10px;
+    margin:20px 22px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    overflow: hidden;
+}
+.singles{
+    width:100%;
+    border-radius: 10px;
+    margin:20px auto;
+    text-align: center;
+    overflow: hidden;
+}
+.singlecontact:hover{
+    background-color: rgba(62, 86, 112, 0.719);
+}
