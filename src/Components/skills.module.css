@@ -24,8 +24,8 @@
 }
 .wrapperskillset{
     border:5px solid rgb(255, 177, 89);
-    max-height:210px;
-    max-width:210px;
+    max-height:200px;
+    max-width:200px;
     margin:10px 30px;
     border-radius: 50%;
     /* background-color: rgb(55, 151, 196); */

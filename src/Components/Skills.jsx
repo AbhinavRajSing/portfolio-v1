@@ -1,5 +1,6 @@
 import React from "react"
 import styles from "./skills.module.css"
+import mongo from "../mongo.png"
 
 const Skills =()=>{
     return(
@@ -22,7 +23,7 @@ const Skills =()=>{
                 <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" className={styles.img}/>
                 </div>
                 <div className={styles.wrapperskillset}>
-                <img src="http://assets.stickpng.com/thumbs/58481021cef1014c0b5e494b.png" className={styles.img}/>
+                <img src={mongo} className={styles.img}/>
                 </div >
             </div>
         </div>
