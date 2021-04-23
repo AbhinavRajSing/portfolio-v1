@@ -1,6 +1,6 @@
 .wrappermain{
     width:100%;
-    height:600px;
+    height:100vh;
     background-color: rgba(30, 87, 109, 0.699);
 }
 .wrapperhead{
@@ -11,17 +11,18 @@
 }
 .wrapperproject{
     display:flex;
-    /* border:1px solid black; */
+    border:1px solid red;
     width:100%;
     height:430px;
     margin:30px 0;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 .singleproject{
     /* border:1px solid black; */
     width:30%;
     height:350px;
-    margin:30px 30px;
+    margin:30px 20px;
     position: relative;
     /* border-radius: 10px; */
     box-shadow: -8px 10px 8px 5px rgb(13, 18, 24);
@@ -67,5 +68,37 @@
     height:350px;
     margin:200px auto;
     background-color: white;
-    border:3px solid rgb(190, 73, 73)
+    border:3px solid rgb(190, 73, 73);
+
 }
+.btn{
+    margin:5px auto;
+    /* border:3px solid rgb(190, 73, 73); */
+    width:fit-content;
+}
+@media only screen and (max-width: 650px){
+    .wrappermain {
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+    .singleproject{
+        flex:100%;
+        max-width:85%;
+        margin:20px auto;
+    }
+    .wrapperproject{
+        height: auto;
+    }
+    .wrapperhead{
+        width:50%;
+    }
+    .modal{
+        width:95%;
+        height: auto;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+}
+

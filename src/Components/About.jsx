@@ -5,8 +5,8 @@ import styles from "./about.module.css"
 const About =()=>{
     return(
         <>
-            <div className={styles.wrappermain}>
-                <div className={styles.wrapperlayer}>
+            {/* <div className={styles.wrappermain} > */}
+                <div className={styles.wrapperlayer} id="about">
                     
                 
                     <div className={styles.wrapperpic}>
@@ -22,7 +22,7 @@ const About =()=>{
                             <a  className={styles.button} href="https://drive.google.com/file/d/1tT5qki_7V9Wls4ItNPTZp2kal2UjCZOT/view?usp=sharing"><Button variant="contained" color="secondary" >Download Resume</Button></a>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </>
     )
 }

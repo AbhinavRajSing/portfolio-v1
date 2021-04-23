@@ -5,6 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import styles from "./nav.module.css"
+import {Link} from "react-scroll"
 
 
 const useStyles = makeStyles((theme) => ({
@@ -27,14 +28,49 @@ export default function MyAppBar() {
     <div className={classes.root}>
       <AppBar position="fixed" style={{backgroundColor:"white",color:"black"}} className={styles.bar}>
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
+          <Typography variant="h6" className={classes.title ,styles.typo}>
             My PortFolio
             
           </Typography>
+          <Link activeClass="active"
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+            >
           <Button color="inherit">About</Button>
+        </Link>
+
+        <Link activeClass="active"
+              to="skills"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+            >
           <Button color="inherit">Skills</Button>
-          <Button color="inherit">Projects</Button>
+        </Link>
+
+        <Link activeClass="active"
+              to="project"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+            >
+           <Button color="inherit">Projects</Button>
+        </Link>
+
+        <Link activeClass="active"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-40}
+              duration={500}
+            >
           <Button color="inherit">Contact</Button>
+        </Link>          
         </Toolbar>
       </AppBar>
     </div>

@@ -41,7 +41,9 @@ const Projects=()=>{
                 <li><h5>Tech Stack: React,React-Redux, Html, Css</h5></li>
                 <li><h5>My role: Planning the implementation and creating functional pages. Appointed as leader of the team.</h5></li>
               </ul>
-              <a href="https://github.com/priyanka-890/BBC-clone" style={{textDecoration:"none"}}><Button variant="contained" color="primary"style={{margin:"5px 300px"}}>View SourceCode</Button></a>
+              <div className={styles.btn}>
+                <a href="https://github.com/priyanka-890/BBC-clone" style={{textDecoration:"none"}}><Button variant="contained" color="primary">View SourceCode</Button></a>
+              </div>
           </div>
         );
 
@@ -54,7 +56,9 @@ const Projects=()=>{
                 <li><h5>Tech Stack: JavaScript, Html, Css</h5></li>
                 <li><h5>My role: Planning the implementation and creating functional pages. Appointed as leader of the team.Secured 4th positions among all teams</h5></li>
               </ul>
-              <a href="https://github.com/AbhinavRajSing/Carbon_SugarCosmetics" style={{textDecoration:"none"}}><Button variant="contained" color="primary"style={{margin:"5px 300px"}}>View SourceCode</Button></a>
+              <div className={styles.btn}>
+                <a href="https://github.com/AbhinavRajSing/Carbon_SugarCosmetics" style={{textDecoration:"none"}}><Button variant="contained" color="primary">View SourceCode</Button></a>
+              </div>
             </div>
           );
 
@@ -67,11 +71,13 @@ const Projects=()=>{
                 <li><h5>Tech Stack: JavaScript, Html, Css</h5></li>
                 <li><h5>My role: Planning the implementation and creating functional pages. Appointed as leader of the team.</h5></li>
               </ul>
-              <a href="https://github.com/AbhinavRajSing/magnesium" style={{textDecoration:"none"}}><Button variant="contained" color="primary"style={{margin:"5px 300px"}}>View SourceCode</Button></a>
+              <div className={styles.btn}>
+                <a href="https://github.com/AbhinavRajSing/magnesium" style={{textDecoration:"none"}}><Button variant="contained" color="primary">View SourceCode</Button></a>
+              </div>
             </div>
           );
     return(
-        <div className={styles.wrappermain}>
+        <div className={styles.wrappermain} id="project">
             <div className={styles.wrapperhead}>
                 <h2>MY WORKS</h2>
                 <hr/>
