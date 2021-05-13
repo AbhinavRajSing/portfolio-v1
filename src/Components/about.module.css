@@ -27,8 +27,25 @@
     color:white;
     margin:auto auto;
     min-width: 300px;
-
     
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    /* border:1px solid red; */
+    line-height: 10px;
+    height:fit-content;
+}
+.eachicons{
+    display:flex ;
+    margin:10px auto;
+    font-size:200px;
+    /* color:white; */
+    justify-content: space-evenly;
+    /* border:1px solid white; */
+    width:10%;
+    height:fit-content
+
 }
 .head{
     display:flex;

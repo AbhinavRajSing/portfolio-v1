@@ -5,6 +5,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
+import Zoom from 'react-reveal/Zoom';
 
 
 const Projects=()=>{
@@ -83,6 +84,7 @@ const Projects=()=>{
                 <hr/>
             </div>
             <div className={styles.wrapperproject}>
+            <Zoom bottom>
                 <div className={styles.singleproject}>
                     <div className={styles.singleprojectimg}>
                         <img src="https://camo.githubusercontent.com/55627b484f0ad06aa8e8da29adb414d3ee832ba197d880773ee3ee24ea5a3599/68747470733a2f2f7467646f776e2e65752d67622e6d79626c75656d69782e6e65742f373830353532313433393835303433322f323032312d30332d31355f31303a31303a32312e6a7067" className={styles.img}/>
@@ -94,7 +96,8 @@ const Projects=()=>{
                         </div>
                     </div>
                 </div>
-
+                </Zoom>
+                <Zoom bottom>
                 <div className={styles.singleproject}>
                 <div className={styles.singleprojectimg}>
                         <img src="https://camo.githubusercontent.com/9c790a8d6e3dde6a54424a6713b76d6768d55907288e643cc31f26ef41c49024/68747470733a2f2f7467646f776e2e65752d67622e6d79626c75656d69782e6e65742f343535313932393039343330373737362f323032312d30322d30365f30393a35333a33312e6a7067" className={styles.img}/>
@@ -106,7 +109,8 @@ const Projects=()=>{
                         </div>
                     </div>
                 </div>
-
+                </Zoom>
+                <Zoom bottom>
                 <div className={styles.singleproject}>
                 <div className={styles.singleprojectimg}>
                         <img src="netdiary.png" className={styles.img}/>
@@ -118,6 +122,7 @@ const Projects=()=>{
                         </div>
                     </div>
                 </div>
+                </Zoom>
             </div>
 
             <div>

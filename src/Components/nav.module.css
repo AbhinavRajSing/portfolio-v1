@@ -1,5 +1,8 @@
 .bar{
-    background: linear-gradient(217deg, rgba(60, 62, 94, 0.8), rgba(4, 63, 190, 0) 70.71%)
+    background: linear-gradient(217deg, rgba(79, 88, 211, 0.918), rgb(65, 84, 124) 70.71%);
+    /* display:flex;
+    justify-content: space-evenly; */
+    float: right;
 }
 @media only screen and (max-width: 650px){
     .typo {

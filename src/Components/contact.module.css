@@ -1,21 +1,44 @@
 .wrappermain{
     width:100%;
-    height:550px;
-    background-color: transparent;
+    height:100vh;
+    background-color: rgb(26,36,47);
+    /* margin:-20px 0px */
+    padding-top: 5px;
 }
 .wrapperhead{
     width:15%;
-    margin:0px auto;
+    margin:auto;
+    margin-top: 100px;
     text-align: center;
     color:rgb(255, 136, 0)
+}
+.contactmain{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    /* border:1px solid red */
+    
+
+}
+.contactdetails{
+    width:40%;
+    height: 450px;
+    /* border:1px solid black; */
+    box-shadow: -8px 10px 8px 5px rgb(13, 18, 24);
+    background: rgb(26,36,47);
+    /*backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px ); */
+    border-radius: 10px;
 }
 .wrappercontact{
     width:40%;
     height:450px;
     border:1px solid white;
     background: rgba(255, 255, 255, 0.534);
-    margin:20px auto;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    /* margin:20px auto; */
+    box-shadow: -8px 10px 8px 5px rgb(13, 18, 24);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
@@ -62,15 +85,72 @@
 .submit:hover{
     background-color: rgba(75, 110, 206, 0.623);
 }
+.headings{
+    color:orange;
+    text-align: center;
+    text-decoration: rgb(red, green, blue);
+}
+
+.infobox{
+    /* border:1px solid red; */
+    margin:15px;
+    display:flex;
+    align-items: center;
+    color:white;
+    font-size: 25px;
+    height:auto
+}
+.contacticons{
+    color:green;
+    /* margin:10px; */
+    /* border: 1px solid red; */
+    font-size: 40px;
+    font-weight: 600;
+}
 
 @media only screen and (max-width: 650px){
+    .wrappermain{
+        height:auto;
+    }
     .wrappercontact {
         width:90%;
         height:auto;
-        padding-right: 5px;
-        padding-left: 5px;
+        /* padding-right: 5px;
+        padding-left: 5px; */
     }
     .wrapperhead{
         width:50%
     }
+    .contactmain{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        /* border:1px solid red; */
+
+    }
+    .infobox{
+        /* border:1px solid red; */
+        margin:15px;
+        display:flex;
+        align-items: center;
+        color:white;
+        font-size: 10px;
+        height:auto
+    }
+    .contacticons{
+        color:green;
+        /* margin:10px; */
+        /* border: 1px solid red; */
+        font-size: 10px;
+        /* font-weight: 600; */
+    }
+    .contactdetails{
+        width:90%;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    
 }

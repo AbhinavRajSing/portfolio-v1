@@ -11,7 +11,7 @@ import {Link} from "react-scroll"
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    
+    // justifyContent:"spaceEvenly"
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -26,11 +26,10 @@ export default function MyAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="fixed" style={{backgroundColor:"white",color:"black"}} className={styles.bar}>
+      <AppBar position="fixed" style={{backgroundColor:"white",color:"white"}} className={styles.bar}>
         <Toolbar>
           <Typography variant="h6" className={classes.title ,styles.typo}>
             My PortFolio
-            
           </Typography>
           <Link activeClass="active"
               to="about"
